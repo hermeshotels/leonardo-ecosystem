@@ -6,7 +6,8 @@
   "scripts": {
     "start": "./node_modules/.bin/pm2 start ecosystem.config.js",
     "stop": "./node_modules/.bin/pm2 stop ecosystem",
-    "delete": "./node_modules/.bin/pm2 delete ecosystem"
+    "delete": "./node_modules/.bin/pm2 delete ecosystem",
+    "status": "./node_modules/.bin/pm2 list"
   },
   "author": "Wanny Miarelli <wannymiarelli@live.com>",
   "license": "ISC",
