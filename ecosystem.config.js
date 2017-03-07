@@ -2,7 +2,7 @@ module.exports = {
 	apps: [
 		{
 			name: 'bol',
-			script: '/home/bitnami/code/bol/server.js',
+			script: '/home/ubuntu/code/bol/server.js',
 			watch: true,
 			env: {
 				NODE_ENV: 'development'
@@ -13,7 +13,7 @@ module.exports = {
 		},
 		{
 			name: 'api',
-			script: '/home/bitnami/code/api/lib/server/server.js',
+			script: '/home/ubuntu/code/api/lib/server/server.js',
 			watch: true,
 			env: {
 				NODE_ENV: 'development'
