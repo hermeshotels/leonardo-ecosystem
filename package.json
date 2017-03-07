@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/pm2 start ecosystem.js"
+    "start": "./node_modules/.bin/pm2 start ecosystem.js",
+    "stop": "./node_modules/.bin/pm2 stop ecosystem",
+    "delete": "./node_modules/.bin/pm2 delete ecosystem"
   },
   "author": "Wanny Miarelli <wannymiarelli@live.com>",
   "license": "ISC",
