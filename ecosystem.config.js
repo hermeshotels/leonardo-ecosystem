@@ -1,9 +1,8 @@
-var resolvePath = require('resolve-path')
 module.exports = {
 	apps: [
 		{
 			name: 'bol',
-			script: resolvePath('/home/bitnami/code/bol/server.js'),
+			script: '/home/bitnami/code/bol/server.js',
 			watch: true,
 			env: {
 				NODE_ENV: 'development'
@@ -14,7 +13,7 @@ module.exports = {
 		},
 		{
 			name: 'api',
-			script: resolvePath('/home/bitnami/code/api/lib/server/server.js'),
+			script: '/home/bitnami/code/api/lib/server/server.js',
 			watch: true,
 			env: {
 				NODE_ENV: 'development'
