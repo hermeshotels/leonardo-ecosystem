@@ -17,6 +17,7 @@ module.exports = {
 			name: 'api',
 			script: '/home/ubuntu/code/api/lib/server/server.js',
 			watch: true,
+			ignore_watch: './godblessyou.log',
 			env: {
 				NODE_ENV: 'development',
 				APIURL: 'http://34.251.162.93:3000/api'
